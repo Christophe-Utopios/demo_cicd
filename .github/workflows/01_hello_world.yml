@@ -20,6 +20,8 @@ jobs:
         run: echo "Goodbye"
 
   second-job:
+    # Ce job dépend ici du premier
+    needs: premier-job
     name: Mon second job
     runs-on: ubuntu-latest
     steps:
