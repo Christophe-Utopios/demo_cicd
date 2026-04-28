@@ -1,4 +1,4 @@
-name: Installation du projet
+name: deploy
 on : push
 jobs:
   test:
